@@ -1,0 +1,91 @@
+.container{   
+}
+.head{
+    padding-left:120px;
+    padding-right: 120px;
+    padding-top: 5px;
+    padding-bottom: 15px;
+    background-color:rgb(43, 39, 39);
+    color:rgb(206, 195, 195);
+    
+}
+.back{
+    background-color: rgb(29, 27, 27);
+    padding:20px;
+}
+.navback{
+    padding:10px;
+}
+.navback1{
+    padding-right: 10px;
+}
+.navback2{
+    padding-left: 10px;
+}
+.body{
+    padding-left:120px;
+    padding-right: 120px;
+    padding-top: 40px;
+}
+.textbodyspan{
+    padding:5px;
+}
+.textpara{
+    background-color: rgb(233, 230, 230);
+    padding:10px;
+    color: rgb(148, 144, 144);
+}
+.body1{
+    border: 2px solid rgb(175, 180, 175);
+    display:inline-block;
+    margin-right: 20px;
+    margin-top: 20px;
+    
+}
+.galleryimg{
+    padding:2px;
+}
+.body2{
+    border: 2px solid rgb(175, 180, 175);
+    display:inline-block;
+    margin-left: 20px;
+    margin-right: 20px;
+
+}
+.body3{
+    border: 2px solid rgb(175, 180, 175);
+    display:inline-block;
+    margin-left: 20px;
+}
+.para{
+    color:rgb(156, 156, 156);
+
+}
+.backimg{
+    background-color: rgb(211, 209, 209);
+    padding-top: 10px;
+    padding-bottom: 10px;
+    
+}
+.inner{
+    background-color: rgb(211, 209, 209);
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 25px;
+    margin-left: 2px;
+    margin-right: 2px;
+    margin-bottom: 2px;
+}
+
+.footerhead{
+    float: right;
+    padding-left: 450px;
+}
+.foot{
+    padding-left:120px;
+    padding-right: 120px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    background-color:rgb(43, 39, 39);
+    color:rgb(206, 195, 195);
+}
