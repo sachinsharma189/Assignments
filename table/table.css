@@ -1,0 +1,11 @@
+table, td, th {  
+  border: 1px solid #ddd;
+  text-align: left;
+}
+th, td {
+  padding: 15px;  
+}
+  th {
+  background-color: #4CAF50;
+  color: white;
+}
