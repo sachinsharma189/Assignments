@@ -1,0 +1,46 @@
+<html>
+<head>
+<meta charset="UTF-8">
+<title></title>
+</head>
+<body>
+<script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js">
+
+</script>
+
+<script>
+$(document).ready(function()
+{
+$(".button2").click(function()
+{
+$.ajax
+({
+url:"https://jsonplaceholder.typicode.com/todos/2",
+dataType: "json",
+type: "DELETE",
+success: function(result)
+{
+$('.removeME').remove();
+},
+error :function (request,msg,error)
+{
+console.log("request failed");
+$('.removeMe').remove();
+}
+
+});
+});
+
+});
+</script>
+
+<h1>Question 16</h1>
+<!-- <p>Add cross button on row and bind click function which make a delete request to server, after success event remove the row from dom</p> -->
+<table border=1>
+<tr class="removeMe">
+<td><button class="button2">X</button></td>
+</tr>
+</table>
+
+</body>
+</html>

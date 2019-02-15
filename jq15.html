@@ -1,0 +1,26 @@
+<html>
+<head>
+    <title>
+        15 Solution
+    </title>
+</head>
+<body>
+<button id=fifteenth> Click on Button to see Q15 Soution
+</button>
+
+<script>
+  $(document).ready(function(){
+    $("#fifteenth").click(function(){
+    $.ajax({
+    url:"https://jsonplaceholder.typicode.com/todos/2",
+    method:"GET",
+    success:function(data){
+       console.log(JSON.stringify(data));
+     },
+    error:function(error){
+      console.log(error.message);
+}
+})})});
+</script>
+</body>
+</html>
