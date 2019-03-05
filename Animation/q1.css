@@ -1,0 +1,89 @@
+.container{
+    background-image: url("containerimg.png");
+    background-repeat: no-repeat;
+    height: 100%;
+    width: 100%;
+    background-size: cover;
+    background-attachment: fixed;
+}
+html, body{
+    margin: 0px;
+    height:100%;
+    width: 100%;
+}
+.content{
+    background-image: url("contentimg.jpeg");
+    height: 500px;
+    width: 500px;
+    background-repeat: no-repeat;
+    background-position: 50% 50%;
+    overflow: scroll;
+    background-attachment: local; 
+}
+p{
+    background-color: #ff0000;
+    /* background image of div get hidden when we apply red bacckground */
+}
+footer{
+    width:70%;
+    margin:auto;
+    position: relative;
+}
+.facebook{
+    position: absolute;
+    background: url("sociallogos.png") -200px -10px;
+    height:160px;
+    width:200px;
+}
+.insta{
+    position: absolute;
+    background: url("sociallogos.png") 0px -10px;
+    left:200px;
+    height:160px;
+    width:200px;
+}
+.twitter{
+    position: absolute;
+    background: url("sociallogos.png") -400px -10px;
+    left:400px;
+    height:160px;
+    width:200px;
+}
+.animatediv{
+    height: 100px;
+    width: 100px;
+}
+.animatediv { 
+    animation-duration: 4s; 
+    animation-name: opacitychange; 
+    animation-iteration-count: 2;
+    animation-delay: 3s;
+    background-color: aqua;
+}
+ @keyframes opacitychange{ 
+     0%{
+         opacity: 1;
+     }
+     50%{
+         opacity:0;
+     }
+     100%{
+         opacity: 0.5;
+     } 
+}
+.animatediv1{
+    height: 100px;
+    width: 200px;
+    background-color: #ff00ff;
+    border: 1px solid #000;
+
+}
+.animatediv1:active {
+    background-color: #000 ;
+    height:200px;
+    width: 100px;
+    border:2px solid  #ff00ff;
+    transform: scale(2,3);
+    transition-property: all; 
+    transition-duration: 3s;
+  }
