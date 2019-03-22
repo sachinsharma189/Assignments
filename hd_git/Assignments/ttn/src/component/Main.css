@@ -1,0 +1,17 @@
+main{
+    background-color: blueviolet;
+    padding-top:50px;
+    height: 290px;
+    text-align: center;
+    width:49%;
+}
+aside{
+    background-color: goldenrod;
+    padding-top:50px;
+    height: 290px;
+    text-align: center;
+    width:50%;
+}
+.main{
+    display: flex;
+}
