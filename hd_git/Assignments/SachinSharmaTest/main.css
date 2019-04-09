@@ -1,0 +1,147 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    margin: 0;
+    padding:0;
+}
+.head{
+    background-color: #ffd849;
+    height: 68px;
+    width: 100%;
+}
+.wrapper{
+    width: 90%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+}
+.logo{
+    background-image: url("logo.png");
+    /* border: 1px solid red; */
+    width: 137px;
+    height: 42px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    vertical-align: center;
+    margin-top: 12px;
+    margin-bottom: 12px;
+}
+ul {
+    list-style-type: none;
+    margin-left: 600px;
+    vertical-align: center;
+}
+li {
+    display: inline;
+    margin-right: 10px;
+  }
+.child1{
+    border-right: 1px solid grey;
+    padding-right: 10px;
+}
+a{
+    text-decoration: none;
+}
+section{
+    background-image: url("background-image.png");
+    background-size: cover;
+    position: relative;
+    background-position: top;
+    background-color: #a0e9f2;
+    padding-top: 60px;
+    padding-bottom: 60px;
+}
+.bannercontent{
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+}
+.bannerleft{
+    text-align: center;
+}
+.bannertext{
+    width:411px;
+    height:120px;
+    color: #3b6177;
+}
+.bannerbutton{
+    color: white;
+    width: 307px;
+    height: 71px;
+    text-align: center;
+    background-color: #ec2678;
+    padding-top: 25px;
+    margin-left: 50px;
+}
+.bannerright{
+    background-color: white;
+    padding-bottom: 20px;
+    line-height: 40px;
+    width:35%
+}
+.wrapper1{
+    width: 90%;
+    margin: 0 auto;
+}
+span{
+    color: red;
+    text-align: center;
+    justify-content: center;
+}
+.submitbutton{
+    background-color: #1a7814;
+    color: white;
+    width: 20%;
+    margin: 0 auto;
+    text-align: center;
+}
+.name{
+    width: 100%;
+    color: grey;
+}
+input
+{
+    border:none;
+    border-bottom:1px solid grey;
+}
+
+
+.submit{
+    color: white;
+}
+footer{
+    background-color: #054ab8;
+    /* display: flex; */
+    padding-top: 20px;
+    padding-bottom: 20px;
+    justify-content: space-evenly;
+    color: white;
+}
+.customer1, .customer2{
+    width: 25%;
+}
+.customerimg{
+    border-radius: 50%;
+}
+ .icon{
+    border-radius: 50%;
+    /* border-style: solid; */
+    width: 40px;
+    height: 40px;
+    text-align: center;
+    background-color: #2e70da; 
+}
+.customersaying{
+    width: 50%;
+    display: inline;
+}
+.wrapper2{
+    width: 90%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+}
+.custname{
+    color: white;
+}
