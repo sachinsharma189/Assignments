@@ -1,0 +1,9 @@
+.App {
+  text-align: center;
+}
+
+.prdCart{
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-evenly;
+}
